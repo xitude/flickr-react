@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.panel {
+    height:400px;
+    overflow: hidden;
+}
+
+.panel-image img.panel-image-preview {
+    height:150px;
+    border-radius: 4px 4px 0 0;
+}
+
+.panel-heading ~ .panel-image img.panel-image-preview {
+    border-radius: 0;
+}
+
+.panel-image ~ .panel-footer a {
+    padding: 0 10px;
+    font-size: 1.1em;
+    color: 'blue';
+}
